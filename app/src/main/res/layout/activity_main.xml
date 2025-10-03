@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:background="#95FFE9"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/userTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="10sp"
+        android:fontFamily="@font/fredoka_light"
+        android:textSize="20sp"
+        android:text="C168, Aaryahi"
+        android:textColor="#00A684" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="20sp"
+        android:fontFamily="@font/chewy"
+        android:text="To-Do List"
+        android:textColor="#004234"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/empty_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have no tasks!"
+        android:textSize="40sp"
+        android:textColor="#004234"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/league_spartan_light"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#004234"
+        android:textColor="#D0FFF6"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginBottom="10sp"
+        android:fontFamily="@font/chewy"
+        android:text="Create new task" />
+
+    <Button
+        android:id="@+id/button_completed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#004234"
+        android:textColor="#D0FFF6"
+        android:textSize="20sp"
+        android:fontFamily="@font/chewy"
+        android:text="View completed tasks" />
+
+</LinearLayout>

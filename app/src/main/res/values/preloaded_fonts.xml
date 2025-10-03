@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/albert_sans_light</item>
+        <item>@font/bagel_fat_one</item>
+        <item>@font/chewy</item>
+        <item>@font/fredoka_light</item>
+        <item>@font/handjet_semibold</item>
+        <item>@font/league_spartan_light</item>
+        <item>@font/snowburst_one</item>
+    </array>
+</resources>
